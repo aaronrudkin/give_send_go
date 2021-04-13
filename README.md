@@ -13,14 +13,14 @@ This is a scraper to scrape all campaigns and donations from the crowdfunding we
 
 The contents of this file are organized as follows:
 
-| campaign_title | author | short_url | raised | category_name | campaign_id |
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| BIG TECH HAS NOW OFFICIALLY CANCELED ME | Josh Bernstein | /GVZ5 | $ 7529 Raised of $ 5000 | Current Events | 28644 |
-| Support former LMPD Detective Brett Hankison | Joe Langley | /GWCZ | $ 4010 Raised of $ 75000 | Current Events | 29055 |
-| Patriot Fund for Jorge Riley | Dacian American | /JorgeRiley | $ 383 Raised of $ 33000 | Current Events | 33012 |
-| Help Fund NewMedia To Fight Back | William Mitchell | /NewMedia | $ 3476 Raised of $ 10000 | Current Events | 31273 |
-| Chris Zimmerman and the 1st Amendment | Jennifer Zimmerman | /chriszimmerman | $ 7037 Raised of $ 30000 | Current Events | 32446 |
-| Justice League of America Vote Fraud Investigation | Jim Hoft | /GX7W | $ 141190 Raised of $ 150000 | Current Events | 29916 |
+| campaign_title | author | short_url | raised | category_name | campaign_id | campaign_pitch |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| BIG TECH HAS NOW OFFICIALLY CANCELED ME | Josh Bernstein | /GVZ5 | $ 7529 Raised of $ 5000 | Current Events | 28644 | *omitted here* |
+| Support former LMPD Detective Brett Hankison | Joe Langley | /GWCZ | $ 4010 Raised of $ 75000 | Current Events | 29055 | *omitted here* |
+| Patriot Fund for Jorge Riley | Dacian American | /JorgeRiley | $ 383 Raised of $ 33000 | Current Events | 33012 | *omitted here* |
+| Help Fund NewMedia To Fight Back | William Mitchell | /NewMedia | $ 3476 Raised of $ 10000 | Current Events | 31273 | *omitted here* |
+| Chris Zimmerman and the 1st Amendment | Jennifer Zimmerman | /chriszimmerman | $ 7037 Raised of $ 30000 | Current Events | 32446 | *omitted here* |
+| Justice League of America Vote Fraud Investigation | Jim Hoft | /GX7W | $ 141190 Raised of $ 150000 | Current Events | 29916 | *omitted here* |
 
 The columns are as follows:
 
@@ -30,6 +30,7 @@ The columns are as follows:
 * *raised*: The current donation amount and the donation target
 * *category_name*: Which category the campaign was submitted to on the site. Some campaigns are submitted to multiple categories, in which case this will be comma separated text.
 * *campaign_id*: An internal numeric ID used to represent the campaign -- this is how you can match the campaigns to donations
+* *campaign_pitch*: Full text of the campaign operator's pitch (e.g. what they are requesting money for).
 
 ### `give_send_go_donations_anonymous.csv`
 
