@@ -66,4 +66,4 @@ Before writing the scraper I checked the relevant FAQs and Terms of Service; at 
 
 As I mention above, by default GiveSendGo does not anonymize donations which were intended to be anonymous. So as to avoid the sharing of PII unintentionally, this repository only contains a version of the data which anonymizes all contributions which have been given anonymously. That being said, the data on the website remains unredacted and the course of running the scraper will ultimately collect PII.
 
-I provide no support or warranty for this scraper or the result data. I expect press scrutiny will likely cause architectural changes to the website.
+I provide no support or warranty for this scraper or the result data. In particular, any errors during my initial script will result in missing data, although I suspect this would affect at most 1% of donations. I expect that press scrutiny will ultimately lead to changes that break this scraper.
